@@ -4,6 +4,8 @@
   "description": "a library of js-tdd-course",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/edfcsx/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/edfcsx/js-tdd-course#readme"
+  "homepage": "https://github.com/edfcsx/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "husky": "^1.3.1"
+  }
 }
