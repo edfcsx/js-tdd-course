@@ -32,5 +32,8 @@
     "hooks": {
       "pre-push": "npm run lint"
     }
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
   }
 }
