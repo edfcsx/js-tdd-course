@@ -6,8 +6,4 @@ const fizzBuzz = (num) => {
   return num;
 };
 
-const bar = (foo) => {
-  let bar = foo;
-};
-
 export default fizzBuzz;
